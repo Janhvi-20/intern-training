@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+}
+.container {
+    background-color: #ffff;
+    border-radius:  15px;
+    box-shadow: 0,0,20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+h1 {
+    font-size: x-large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+label {
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: rgb(21, 21, 21);
+    font-weight: bold;
+}
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;  
+}
+input[type ="radio"]
+{
+    display: inline;
+    width: 10%;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px; /* space between buttons */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.submit-btn,
+.reset-btn {
+  width: 160px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: navy;
+}
+
+.reset-btn {
+  background-color: navy;
+}
+
+.submit{
+    padding: 10px;
+}
